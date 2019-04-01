@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#! /bin/bash
 
 docker build --tag wumpus .
-docker run -p 8000:8000 -it wumpus
+docker run -p 57575:57575 -it wumpus
